@@ -2,7 +2,7 @@
  * clone from https://github.com/matchai/waka-box
  */
 export default function generateBarChart(percent: number, size: number) {
-  const syms = '░▏▎▍▌▋▊▉█';
+  const syms = '░▏▎▍▌▋▊▉█'; //bar
 
   const frac = Math.floor((size * 8 * percent) / 100);
   const barsFull = Math.floor(frac / 8);
